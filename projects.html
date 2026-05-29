@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank Tieri | Projects Portfolio</title>
+
+  <style>
+    :root {
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --accent: #2563eb;
+      --card: #ffffff;
+      --text: #334155;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: #cbd5f5;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: var(--dark);
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card h3 {
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+
+    /* IMAGE FIX */
+    .project-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    /* LINK BLOCK STYLE */
+    .project-link {
+      display: block;
+      margin-bottom: 1.5rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .project-link b {
+      display: block;
+      margin-top: 0.3rem;
+    }
+
+    .project-link:hover {
+      opacity: 0.9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #e5e7eb;
+      font-size: 0.9rem;
+      color: #475569;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="profile.jpg" alt="Frank Tieri">
+    <h1>Frank Tieri</h1>
+    <p>Projects from Presentation • CUNY College of Staten Island</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="projects">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <h3>Projects that I would like or I am revising on</h3>
+
+          <a class="project-link" href="https://ftieri.github.io/caf-_frank/">
+            <b>Café Frank</b>
+          </a>
+        <br>
+          <a class="project-link" href="rgp.png">
+            <img src="repeating geometric pattern.png">
+            <b>Repeating Geometric Pattern</b>
+          </a>
+        <br>
+          <a class="project-link" href="bhwcif.png">
+            <img src="bertha harris women's center internship flyer.png">
+            <b>Bertha Harris Women's Center Internship Flyer</b>
+          </a>
+         <br>
+          <a class="project-link" href="bear outline.png">
+            <img src="bear outline.png">
+            <b>White Silhouette of a Polar Bear</b>
+          </a>
+        <br>
+          <a class="project-link" href="bikinside boutom.JPG">
+            <img src="bikinside boutom.JPG">
+            <b>BikInside Bottom</b>
+          </a>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <h3>Projects I would like to professionalize</h3>
+
+          <a class="project-link" href="https://www.youtube.com/playlist?list=PLdfYHHfliaBBi_ss8WdsfWed0XSK5a04q">
+            <b>Coaster Recreation POV's (RCT3)</b>
+          </a>
+            <br>
+          <a class="project-link" href="17%20dragons.mp4">
+              <b>17 Dragons</b>
+          </a>
+            <br>
+          <a class="project-link" href="sml.png">
+              <img src="sml.png">
+              <b>SML Poster</b>
+          </a>
+            <br>
+          <a class="project-link" href="NYC%20is%20not%20the%205%20%E2%80%9Cboroughs%E2%80%9D%20delusion.mp4">
+              <b>NYC is not the "5 boroughs" delusion</b>
+          </a>
+            <br>
+          <a class="project-link" href="my%20poster.png">
+              <img src="my%20poster.png">
+              <b>NYC is NOT the "5 boroughs" (poster)</b>
+          </a>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+          <h3>My current portfolio site</h3>
+
+          <a class="project-link" href="https://forums.rctgo.com/user-32385.html">
+            <b>Time4Coasters' RCT3 Downloads</b>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Frank Tieri • Presentation Project Portfolio
+  </footer>
+
+</body>
+</html>

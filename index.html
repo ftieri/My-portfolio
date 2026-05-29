@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frank Tieri | Portfolio</title>
+
+  <style>
+    :root {
+      --primary: #1f2937;
+      --secondary: #4b5563;
+      --accent: #2563eb;
+      --bg: #f9fafb;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: var(--bg);
+      color: var(--primary);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2.5rem 1rem;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: #d1d5db;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: var(--card);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--secondary);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Profile picture -->
+    <img src="frankgrad20253.jpg" width=10% height=10%>
+
+    <h1>Frank B. Tieri</h1>
+    <p>Staten Island, NY | Frank.Tieri@cix.csi.cuny.edu</p>
+  </header>
+
+  <main>
+      
+    <section>
+      <h2>Age</h2>
+      <p>
+        Born on April 20th, 2004 (22 years old)
+      </p>
+    </section>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Motivated and detail-oriented professional with a strong academic foundation
+        and a growing technical skill set. Strong problem-solving abilities,
+        teamwork experience, and dedication to continuous learning.
+      </p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>CUNY – College of Staten Island</strong></p>
+      <p>Degree Program: <em>Communications</em></p>
+      <p>Expected Graduation: <em>May 2027</em></p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <a href="projects.html">View them right here!</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Frank Tieri. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
